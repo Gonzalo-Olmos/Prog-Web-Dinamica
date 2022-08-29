@@ -9,6 +9,8 @@ if ($_POST) {
     $user = $_POST['user'];
     $pass = $_POST['pass'];
 
+  
+
 
  
 }else {
@@ -16,18 +18,6 @@ if ($_POST) {
     echo "sin datos";
 }
 
-function validarContraseña()
-{
-  //la contraseña debe tener al menos 8 caracteres
-  //la contraseña debe contener letras y numeros
-  //la contraseña no puede ser igual que el nombre de usuario ingresado
-
-
-
-
-
-
-}
 
 
 ?>
